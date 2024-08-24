@@ -59,7 +59,7 @@ body {
 .hour-hand {
     width: 20%;
     height: 8px;
-    background: rgb(0, 0, 0);
+    background: rgb(183, 26, 26);
     position: absolute;
     top: 50%;
     right: 50%;

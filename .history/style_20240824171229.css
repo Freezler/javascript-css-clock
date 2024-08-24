@@ -44,7 +44,7 @@ body {
 }
 
 .hand {
-    width: 50%;
+    width: 40%;
     height: 6px;
     background: black;
     position: absolute;
@@ -59,17 +59,6 @@ body {
 .hour-hand {
     width: 20%;
     height: 8px;
-    background: rgb(0, 0, 0);
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform-origin: 100%;
-    transform: rotate(110deg);
-    transition: all 0.05s cubic-bezier(0.1, 2.7, 0.58, 1);
-}
-.second-hand {
-    width: 45%;
-    height: 4px;
     background: rgb(183, 26, 26);
     position: absolute;
     top: 50%;
