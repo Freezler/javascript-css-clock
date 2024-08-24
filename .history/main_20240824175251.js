@@ -6,7 +6,7 @@ const hourHand = document.querySelector('.hour-hand');
 
 function setDate() {
     const now = new Date();
-    const amsterdamOffset = 3; // CET is UTC+1
+    const amsterdamOffset = 1; // CET is UTC+1
     const amsterdamTime = new Date(now.setHours(now.getUTCHours() + amsterdamOffset));
     const seconds = amsterdamTime.getSeconds();
     const secondsDegrees = ((seconds / 60) * 360) + 90;
