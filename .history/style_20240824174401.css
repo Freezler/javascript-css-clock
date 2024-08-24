@@ -26,13 +26,11 @@ body {
     align-items: center;
 }
 h1 {
-    color:rgba(11, 202, 236, 0.99);
-    font-size: 6rem;
+    color:rgba(5, 85, 109, 0.99);
+    font-size: 8rem;
     font-weight: semi-bold;
     line-height: 0.8;
     margin: 5rem;
-    text-shadow: 0px 0px 6px rgba(2, 15, 65, 0.8);
-
 }
 
 .clock {
