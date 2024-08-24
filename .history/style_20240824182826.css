@@ -26,17 +26,15 @@ body {
     align-items: center;
     min-height: 100%;
 }
-
 h1 {
-    background: linear-gradient(to right, #f712d9, #00c8ff, #f712d9);
+    background: linear-gradient(to right, #f712d9, #ffff00, #ff0000);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 8rem;
     font-weight: semi-bold;
-    line-height: 1;
-    margin: 3.2rem;
-    text-shadow: 0px 0px 24px rgba(142, 3, 133, 0.981);
-    font-family: sans-serif;
+    line-height: 0.8;
+    margin: 5rem;
+    text-shadow: 0px 0px 32px rgba(197, 4, 204, 0.8);
 
 }
 
@@ -68,7 +66,7 @@ h1 {
 .hand {
     width: 50%;
     height: 6px;
-    background: rgb(14, 47, 194);
+    background: black;
     position: absolute;
     top: 50%;
     right: 50%;
@@ -84,7 +82,7 @@ h1 {
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     height: 8px;
-    background: rgba(2, 27, 129, 0.844);
+    background: rgb(0, 0, 0);
     position: absolute;
     top: 50%;
     right: 50%;
@@ -92,11 +90,10 @@ h1 {
     transform: rotate(110deg);
     transition: all 0.05s cubic-bezier(0.1, 2.7, 0.58, 1);
 }
-
 .second-hand {
     width: 45%;
     height: 2px;
-    background: rgb(193, 21, 187);
+    background: rgb(183, 26, 26);
     position: absolute;
     top: 50%;
     right: 50%;
@@ -116,8 +113,10 @@ h1 {
     transform: rotate(90deg);
     height: 16px;
     width: 16px;
-    background: rgba(0, 50, 255, 0.9);
+    background: rgba(133, 1, 1, 0.939);
     border-radius: 50%;
     z-index: 100;
-    transform: translateY(-6px) translateX(-8px);
+    transform: translateY(-6px) translateX(-7.6px);
+
+
 }
